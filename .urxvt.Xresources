@@ -1,0 +1,39 @@
+Xterm*termName: xterm-256color
+
+! URxvt*termName: rxvt-256color
+URxvt*termName: screen-256color
+
+URxvt.font:           xft:Fira Code Retina-13
+URxvt.boldFont:       xft:Fira Code Retina-13:bold;
+URxvt.boldItalicFont: xft:Fira Code Retina-13:bold:italic;
+URxvt.italicFont:     xft:Fira Code Retina-13:italic;
+
+URxvt.letterSpace:         -1
+
+URxvt.urgentOnBell:     true
+URxvt.imLocale:         en_US.UTF-8
+URxvt.borderless:       true
+URxvt*scrollBar: false
+
+URxvt.internalBorder: 6
+URxvt.externalBorder: 0
+
+URxvt.scrollBar:           false
+
+URxvt*fading:              30
+
+URxvt.perl-ext-common:     default,matcher,resize-font
+
+URxvt.keysym.F11:          perl:fullscreen:switch
+
+URxvt.resize-font.smaller: C-minus
+URxvt.resize-font.bigger: C-plus
+URxvt.resize-font.reset: C-equal
+URxvt.resize-font.show: C-question
+
+URxvt.url-launcher:        /usr/bin/chromium
+URxvt.keysym.M-Delete:     perl:matcher:list
+
+URxvt.keysym.C-C: perl:clipboard:copy
+URxvt.keysym.C-V: perl:clipboard:paste
+
